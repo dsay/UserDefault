@@ -2,6 +2,7 @@ import Foundation
 
 @propertyWrapper
 public struct UserDefault<T> {
+    
     let key: String
     let defaultValue: T
     
@@ -22,6 +23,7 @@ public struct UserDefault<T> {
 
 @propertyWrapper
 public struct NullableUserDefault<T> {
+    
     let key: String
     
     public init(_ key: String) {
